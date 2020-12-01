@@ -1,7 +1,4 @@
 ---
----
-
----
 new_page_extension: md
 auto_deploy: false
 admin_path: 
@@ -11,6 +8,7 @@ sections:
   path: index.html
   label: Links
   match: "**/*"
+  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
