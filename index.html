@@ -1,5 +1,12 @@
 <!doctype html>
-<html><head><title>Coding Links 💻</title><meta charset="UTF-8"><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet"><style>/*
+<html>
+
+<head>
+    <title>Coding Links 💻</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /*
  * Copyright 2014 Quip
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may
@@ -15,383 +22,397 @@
  * under the License.
  */
 
-body {
-    font-size: 15px;
-    color: white;
-    background: black;
-    padding: 60px 95px;
-    max-width: 900px;
-    margin: 0 auto;
-    text-rendering: optimizeLegibility;
-    font-feature-settings: "kern";
-    font-kerning: normal;
-    -moz-font-feature-settings: "kern";
-    -webkit-font-feature-settings: "kern";
-}
+        body {
+            font-size: 15px;
+            color: white;
+            background: black;
+            padding: 60px 95px;
+            max-width: 900px;
+            margin: 0 auto;
+            text-rendering: optimizeLegibility;
+            font-feature-settings: "kern";
+            font-kerning: normal;
+            -moz-font-feature-settings: "kern";
+            -webkit-font-feature-settings: "kern";
+        }
 
-a {
-    color:white;
-}
-a:visited{
-    color:tomato;
-}
-/* Headings */
-h1,
-h2,
-h3,
-th {
-    font-family: 'Space Mono', monospace;
-    font-weight: 700;
-    margin: 0;
-    margin-top: 1.25em;
-    margin-bottom: 0.75em;
-}
+        a {
+            color: white;
+        }
 
-h1 {
-    font-size: 35px;
-    line-height: 42px;
-}
+        a:visited {
+            color: tomato;
+        }
 
-h1:first-child {
-    margin-top: 0;
-}
+        /* Headings */
+        h1,
+        h2,
+        h3,
+        th {
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            margin: 0;
+            margin-top: 1.25em;
+            margin-bottom: 0.75em;
+        }
 
-h2 {
-    font-size: 18px;
-    line-height: 22px;
-}
+        h1 {
+            font-size: 35px;
+            line-height: 42px;
+        }
 
-h3 {
-    font-size: 13px;
-    line-height: 16px;
-}
+        h1:first-child {
+            margin-top: 0;
+        }
 
-.capitalize-h3 h3 {
-    text-transform: uppercase;
-}
+        h2 {
+            font-size: 18px;
+            line-height: 22px;
+        }
 
-/* Body text */
-body,
-p,
-ul,
-ol,
-td {
-    font-family: 'Space Mono', monospace;
-    font-size: 16px;
-    line-height: 20px;
-}
+        h3 {
+            font-size: 13px;
+            line-height: 16px;
+        }
 
-blockquote,
-q {
-    display: block;
-    margin: 1em 0;
-    font-style: italic;
-}
+        .capitalize-h3 h3 {
+            text-transform: uppercase;
+        }
 
-blockquote a,
-q a {
-    text-decoration: underline;
-}
+        /* Body text */
+        body,
+        p,
+        ul,
+        ol,
+        td {
+            font-family: 'Space Mono', monospace;
+            font-size: 16px;
+            line-height: 20px;
+        }
 
-blockquote {
-    padding-left: 10px;
-    border-left: 4px solid #a6a6a6;
-}
+        blockquote,
+        q {
+            display: block;
+            margin: 1em 0;
+            font-style: italic;
+        }
 
-q {
-    color: #a6a6a6;
-    line-height: 40px;
-    font-size: 24px;
-    text-align: center;
-    quotes: none;
-}
+        blockquote a,
+        q a {
+            text-decoration: underline;
+        }
 
-q a {
-    color: #a6a6a6;
-}
+        blockquote {
+            padding-left: 10px;
+            border-left: 4px solid #a6a6a6;
+        }
 
-code,
-pre {
-    font-family: 'Space Mono', monospace;
-        Courier, monospace;
-    background: #f2f2f2;
-}
+        q {
+            color: #a6a6a6;
+            line-height: 40px;
+            font-size: 24px;
+            text-align: center;
+            quotes: none;
+        }
 
-code {
-    padding: 1px;
-    margin: 0 -1px;
-    border-radius: 3px;
-}
+        q a {
+            color: #a6a6a6;
+        }
 
-pre {
-    display: block;
-    line-height: 20px;
-    text-shadow: 0 1px white;
-    padding: 5px 5px 5px 30px;
-    white-space: nowrap;
-    position: relative;
-    margin: 1em 0;
-}
+        code,
+        pre {
+            font-family: 'Space Mono', monospace;
+            Courier,
+            monospace;
+            background: #f2f2f2;
+        }
 
-pre:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 15px;
-    border-left: solid 1px #dadada;
-}
+        code {
+            padding: 1px;
+            margin: 0 -1px;
+            border-radius: 3px;
+        }
 
-/* Lists */
-div[data-section-style="5"],
-div[data-section-style="6"],
-div[data-section-style="7"] {
-    margin: 12px 0;
-}
+        pre {
+            display: block;
+            line-height: 20px;
+            text-shadow: 0 1px white;
+            padding: 5px 5px 5px 30px;
+            white-space: nowrap;
+            position: relative;
+            margin: 1em 0;
+        }
 
-ul {
-    padding: 0 0 0 40px;
-}
+        pre:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 15px;
+            border-left: solid 1px #dadada;
+        }
 
-ul li {
-    margin-bottom: 0.4em;
-}
+        /* Lists */
+        div[data-section-style="5"],
+        div[data-section-style="6"],
+        div[data-section-style="7"] {
+            margin: 12px 0;
+        }
 
-/* Bulleted list */
-div[data-section-style="5"] ul {
-    list-style-type: disc;
-}
-div[data-section-style="5"] ul ul {
-    list-style-type: circle;
-}
-div[data-section-style="5"] ul ul ul {
-    list-style-type: square;
-}
-div[data-section-style="5"] ul ul ul ul {
-    list-style-type: disc;
-}
-div[data-section-style="5"] ul ul ul ul ul {
-    list-style-type: circle;
-}
-div[data-section-style="5"] ul ul ul ul ul ul {
-    list-style-type: square;
-}
+        ul {
+            padding: 0 0 0 40px;
+        }
 
-/* Numbered list */
-div[data-section-style="6"] ul {
-    list-style-type: decimal;
-}
-div[data-section-style="6"] ul ul {
-    list-style-type: lower-alpha;
-}
-div[data-section-style="6"] ul ul ul {
-    list-style-type: lower-roman;
-}
-div[data-section-style="6"] ul ul ul ul {
-    list-style-type: decimal;
-}
-div[data-section-style="6"] ul ul ul ul ul {
-    list-style-type: lower-alpha;
-}
-div[data-section-style="6"] ul ul ul ul ul ul {
-    list-style-type: lower-roman;
-}
+        ul li {
+            margin-bottom: 0.4em;
+        }
 
-/* Checklist */
-div[data-section-style="7"] ul {
-    list-style-type: none;
-}
+        /* Bulleted list */
+        div[data-section-style="5"] ul {
+            list-style-type: disc;
+        }
 
-div[data-section-style="7"] ul li:before {
-    content: "\2610";
-    position: absolute;
-    display: inline;
-    margin-right: 1.2em;
-    margin-left: -1.2em;
-}
+        div[data-section-style="5"] ul ul {
+            list-style-type: circle;
+        }
 
-div[data-section-style="7"] ul li.parent:before {
-    content: "";
-}
+        div[data-section-style="5"] ul ul ul {
+            list-style-type: square;
+        }
 
-div[data-section-style="7"] ul li.checked {
-    text-decoration: line-through;
-}
+        div[data-section-style="5"] ul ul ul ul {
+            list-style-type: disc;
+        }
 
-div[data-section-style="7"] ul li.checked:before {
-    content: "\2611";
-    text-decoration: none;
-}
+        div[data-section-style="5"] ul ul ul ul ul {
+            list-style-type: circle;
+        }
 
-/* Tables */
-div[data-section-style="8"] {
-    margin: 12px 0;
-}
+        div[data-section-style="5"] ul ul ul ul ul ul {
+            list-style-type: square;
+        }
 
-table {
-    border-spacing: 0;
-    border-collapse: separate;
-    border: solid 1px #bbb;
-    table-layout: fixed;
-    position: relative;
-}
+        /* Numbered list */
+        div[data-section-style="6"] ul {
+            list-style-type: decimal;
+        }
 
-table th,
-table td {
-    padding: 2px 2px 0;
-    min-width: 1.5em;
-    word-wrap: break-word;
-}
+        div[data-section-style="6"] ul ul {
+            list-style-type: lower-alpha;
+        }
 
-table th {
-    border-bottom: 1px solid #c7cbd1;
-    background: #f2f2f2;
-    font-weight: bold;
-    vertical-align: bottom;
-    color: #3a4449;
-    text-align: center;
-}
+        div[data-section-style="6"] ul ul ul {
+            list-style-type: lower-roman;
+        }
 
-table td {
-    padding-top: 0;
-    border-left: 1px solid #c7cbd1;
-    border-top: 1px solid #c7cbd1;
-    vertical-align: top;
-}
+        div[data-section-style="6"] ul ul ul ul {
+            list-style-type: decimal;
+        }
 
-table td.bold {
-    font-weight: bold;
-}
+        div[data-section-style="6"] ul ul ul ul ul {
+            list-style-type: lower-alpha;
+        }
 
-table td.italic {
-    font-style: italic;
-}
+        div[data-section-style="6"] ul ul ul ul ul ul {
+            list-style-type: lower-roman;
+        }
 
-table td.underline {
-    text-decoration: underline;
-}
+        /* Checklist */
+        div[data-section-style="7"] ul {
+            list-style-type: none;
+        }
 
-table td.strikethrough {
-    text-decoration: line-through;
-}
+        div[data-section-style="7"] ul li:before {
+            content: "\2610";
+            position: absolute;
+            display: inline;
+            margin-right: 1.2em;
+            margin-left: -1.2em;
+        }
 
-table td.underline.strikethrough {
-    text-decoration: underline line-through;
-}
+        div[data-section-style="7"] ul li.parent:before {
+            content: "";
+        }
 
-table td:first-child {
-    border-left: hidden;
-}
+        div[data-section-style="7"] ul li.checked {
+            text-decoration: line-through;
+        }
 
-table tr:first-child td {
-    border-top: hidden;
-}
+        div[data-section-style="7"] ul li.checked:before {
+            content: "\2611";
+            text-decoration: none;
+        }
 
-/* Images */
-div[data-section-style="11"] {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
+        /* Tables */
+        div[data-section-style="8"] {
+            margin: 12px 0;
+        }
 
-div[data-section-style="11"][data-section-float="0"] {
-    clear: both;
-    text-align: center;
-}
+        table {
+            border-spacing: 0;
+            border-collapse: separate;
+            border: solid 1px #bbb;
+            table-layout: fixed;
+            position: relative;
+        }
 
-div[data-section-style="11"][data-section-float="1"] {
-    float: left;
-    clear: left;
-    margin-right: 20px;
-}
+        table th,
+        table td {
+            padding: 2px 2px 0;
+            min-width: 1.5em;
+            word-wrap: break-word;
+        }
 
-div[data-section-style="11"][data-section-float="2"] {
-    float: right;
-    clear: right;
-    margin-left: 20px;
-}
+        table th {
+            border-bottom: 1px solid #c7cbd1;
+            background: #f2f2f2;
+            font-weight: bold;
+            vertical-align: bottom;
+            color: #3a4449;
+            text-align: center;
+        }
 
-div[data-section-style="11"] img {
-    display: bloc3k;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-}
+        table td {
+            padding-top: 0;
+            border-left: 1px solid #c7cbd1;
+            border-top: 1px solid #c7cbd1;
+            vertical-align: top;
+        }
 
-div[data-section-style="11"].show-border {
-    outline: 1px solid @standardShadowColor;
-    box-shadow: 0 1px 4px 0 @secondaryShadowColor;
-}
+        table td.bold {
+            font-weight: bold;
+        }
 
-hr {
-    width: 70px;
-    margin: 20px auto;
-}
+        table td.italic {
+            font-style: italic;
+        }
 
-/* Apps */
-div[data-section-style="19"].placeholder {
-    margin: 0.8em auto;
-    padding: 4px 0;
-    display: block;
-    color: white;
-    text-align: center;
-    border: 1px solid rgba(41, 182, 242, 0.2);
-    border-radius: 3px;
-    background: #e9f8fe;
-    font-family: 'Space Mono', monospace;
-}
+        table td.underline {
+            text-decoration: underline;
+        }
 
-div[data-section-style="19"].first-party-element {
-    margin-bottom: 10px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+        table td.strikethrough {
+            text-decoration: line-through;
+        }
 
-div[data-section-style="19"].first-party-element.kanban {
-    background-image: url("https://quip-cdn.com/nK0hSyhsb4jrLIL2s5Ma-g");
-    height: 166px;
-}
+        table td.underline.strikethrough {
+            text-decoration: underline line-through;
+        }
 
-div[data-section-style="19"].first-party-element.calendar {
-    background-image: url("https://quip-cdn.com/OYujqLny03RILxcLIiyERg");
-    height: 244px;
-}
+        table td:first-child {
+            border-left: hidden;
+        }
 
-div[data-section-style="19"].first-party-element.poll {
-    background-image: url("https://quip-cdn.com/fbIiFrcKGv__4NB7CBfxoA");
-    height: 116px;
-}
+        table tr:first-child td {
+            border-top: hidden;
+        }
 
-div[data-section-style="19"].first-party-element.countdown {
-    background-image: url("https://quip-cdn.com/3bPhykD2dBei9sSjCWteTQ");
-    height: 96px;
-}
+        /* Images */
+        div[data-section-style="11"] {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-div[data-section-style="19"].first-party-element.process_bar {
-    background-image: url("https://quip-cdn.com/ybQlHnHEIIBLog5rZmYs_w");
-    height: 36px;
-}
+        div[data-section-style="11"][data-section-float="0"] {
+            clear: both;
+            text-align: center;
+        }
 
-div[data-section-style="19"].first-party-element.project_tracker {
-    background-image: url("https://quip-cdn.com/OFQU087b4Mxzz1ZaHwtjXA");
-    height: 164px;
-}
+        div[data-section-style="11"][data-section-float="1"] {
+            float: left;
+            clear: left;
+            margin-right: 20px;
+        }
 
-div[data-section-style="19"] img {
-    margin: 0.5em;
-}
+        div[data-section-style="11"][data-section-float="2"] {
+            float: right;
+            clear: right;
+            margin-left: 20px;
+        }
 
-div[data-section-style="19"] img.masked-image {
-    margin: 0;
-    transform-origin: top left;
-}
+        div[data-section-style="11"] img {
+            display: bloc3k;
+            max-width: 100%;
+            height: auto;
+            margin: auto;
+        }
 
-div[data-section-style="19"] .image-mask {
-    position: relative;
-    overflow: hidden;
-}
-/*
+        div[data-section-style="11"].show-border {
+            outline: 1px solid @standardShadowColor;
+            box-shadow: 0 1px 4px 0 @secondaryShadowColor;
+        }
+
+        hr {
+            width: 70px;
+            margin: 20px auto;
+        }
+
+        /* Apps */
+        div[data-section-style="19"].placeholder {
+            margin: 0.8em auto;
+            padding: 4px 0;
+            display: block;
+            color: white;
+            text-align: center;
+            border: 1px solid rgba(41, 182, 242, 0.2);
+            border-radius: 3px;
+            background: #e9f8fe;
+            font-family: 'Space Mono', monospace;
+        }
+
+        div[data-section-style="19"].first-party-element {
+            margin-bottom: 10px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        div[data-section-style="19"].first-party-element.kanban {
+            background-image: url("https://quip-cdn.com/nK0hSyhsb4jrLIL2s5Ma-g");
+            height: 166px;
+        }
+
+        div[data-section-style="19"].first-party-element.calendar {
+            background-image: url("https://quip-cdn.com/OYujqLny03RILxcLIiyERg");
+            height: 244px;
+        }
+
+        div[data-section-style="19"].first-party-element.poll {
+            background-image: url("https://quip-cdn.com/fbIiFrcKGv__4NB7CBfxoA");
+            height: 116px;
+        }
+
+        div[data-section-style="19"].first-party-element.countdown {
+            background-image: url("https://quip-cdn.com/3bPhykD2dBei9sSjCWteTQ");
+            height: 96px;
+        }
+
+        div[data-section-style="19"].first-party-element.process_bar {
+            background-image: url("https://quip-cdn.com/ybQlHnHEIIBLog5rZmYs_w");
+            height: 36px;
+        }
+
+        div[data-section-style="19"].first-party-element.project_tracker {
+            background-image: url("https://quip-cdn.com/OFQU087b4Mxzz1ZaHwtjXA");
+            height: 164px;
+        }
+
+        div[data-section-style="19"] img {
+            margin: 0.5em;
+        }
+
+        div[data-section-style="19"] img.masked-image {
+            margin: 0;
+            transform-origin: top left;
+        }
+
+        div[data-section-style="19"] .image-mask {
+            position: relative;
+            overflow: hidden;
+        }
+
+        /*
  * Copyright 2019 Quip
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may
@@ -407,293 +428,662 @@ div[data-section-style="19"] .image-mask {
  * under the License.
  */
 
-body {
-    counter-reset: indent0 indent1 indent2 indent3 indent4 indent5 indent6
-        indent7 indent8;
-}
-
-/* Numbered list */
-div[data-section-style="6"] {
-    counter-reset: indent0 indent1 indent2 indent3 indent4 indent5 indent6
-        indent7 indent8;
-}
-div[data-section-style="6"].list-numbering-continue {
-    counter-reset: none;
-}
-div[data-section-style="6"].list-numbering-restart-at {
-    counter-reset: indent0 var(--indent0) indent1 indent2 indent3 indent4
-        indent5 indent6 indent7 indent8;
-}
-div[data-section-style="6"] ul {
-    /* indent0 is not reset since it is shared across the div elements */
-    list-style-type: none !important;
-}
-div[data-section-style="6"] ul ul {
-    counter-reset: indent1;
-}
-div[data-section-style="6"] ul ul ul {
-    counter-reset: indent2;
-}
-div[data-section-style="6"] ul ul ul ul {
-    counter-reset: indent3;
-}
-div[data-section-style="6"] ul ul ul ul ul {
-    counter-reset: indent4;
-}
-div[data-section-style="6"] ul ul ul ul ul ul {
-    counter-reset: indent5;
-}
-div[data-section-style="6"] ul li {
-    counter-increment: indent0;
-}
-div[data-section-style="6"] ul ul li {
-    counter-increment: indent1;
-}
-div[data-section-style="6"] ul ul ul li {
-    counter-increment: indent2;
-}
-div[data-section-style="6"] ul ul ul ul li {
-    counter-increment: indent3;
-}
-div[data-section-style="6"] ul ul ul ul ul li {
-    counter-increment: indent4;
-}
-div[data-section-style="6"] ul ul ul ul ul ul li {
-    counter-increment: indent5;
-}
-div[data-section-style="6"] ul li:before {
-    content: counter(indent0, decimal) ". ";
-}
-div[data-section-style="6"] ul ul li:before {
-    content: counter(indent1, lower-alpha) ". ";
-}
-div[data-section-style="6"] ul ul ul li:before {
-    content: counter(indent2, lower-roman) ". ";
-}
-div[data-section-style="6"] ul ul ul ul li:before {
-    content: counter(indent3, decimal) ". ";
-}
-div[data-section-style="6"] ul ul ul ul ul li:before {
-    content: counter(indent4, lower-alpha) ". ";
-}
-div[data-section-style="6"] ul ul ul ul ul ul li:before {
-    content: counter(indent5, lower-roman) ". ";
-}
-
-</style></head><body><h1 id='EGBACA3nvc3'><br><u>Coding Links 💻</u></h1>
-
-Jump To ➡️ <a href="#EGBACAHAhs2">General Help</a> - <a href="#EGBACAedAKN">Communities</a> - <a href="#EGBACAmB0te">Ruby</a> - <control data-remapped="true" id="EGBACA3UGQ9"><a href="EGBACARkaQb">Blogs:</a></control> -  <control data-remapped="true" id="EGBACAnFUkw"><a href="#EGBACAEQnOw">APIs:</a></control> -  <control data-remapped="true" id="EGBACAjB7Jh"><a href="#EGBACAxg5x1">Design Resources:</a></control> -  <control data-remapped="true" id="EGBACAQYmLk"><a href="#EGBACAHzAYu">Games + Challenges:</a></control> <br>- <control data-remapped="true" id="EGBACAG3aAP"><a href="#EGBACAYLNTE">Jobs:</a></control> -  <control data-remapped="true" id="EGBACAkD7Xg"><a href="#EGBACAVbrLW">Testing:</a></control> -  <control data-remapped="true" id="EGBACAMMUe6"><a href="#EGBACAuGvce">Tips:</a></control> -  <control data-remapped="true" id="EGBACA3hfaZ"><a href="#EGBACAmVuYv">Tutorials:</a></control> - <control data-remapped="true" id="EGBACA5asTS"><a href="#EGBACAQVSuG">Books:</a></control><br/>
-
-<h2 id='EGBACAEQnOw'><b><u>APIs:</u></b></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAF5HR9'><li id='EGBACALpMUS' class='' value='1'><b><a href="https://graphqlsheet.com/">https://graphqlsheet.com/</a></b>
-
-<br/></li><li id='EGBACAeAzww' class=''><a href="https://developers.google.com/sheets/api">https://developers.google.com/sheets/api</a>
-
-<br/></li><li id='EGBACAvfF2Q' class=''><a href="https://restfulapi.net/">https://restfulapi.net/</a>
-
-<br/></li><li id='EGBACAST8kd' class=''><a href="https://listt.xyz/?ref=producthunt">https://listt.xyz/?ref=producthunt</a>
-
-<br/></li><li id='EGBACAd0kiR' class=''><a href="https://openapi.tools/">https://openapi.tools/</a> ⬅️ API Design Tools
-
-<br/></li><li id='EGBACAlFUFx' class=''><a href="https://cloud.google.com/endpoints/docs/openapi/when-why-api-key">https://cloud.google.com/endpoints/docs/openapi/when-why-api-key</a>
-
-<br/></li><li id='EGBACAv9Bne' class=''><a href="https://swagger.io/docs/">https://swagger.io/docs/</a>
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACARkaQb'><b><u><i>Blogs:</i></u></b></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACARy8OW'><li id='EGBACArLpvu' class='' value='1'><b><a href="https://lea.verou.me/">https://lea.verou.me/</a></b>
-
-<br/></li><li id='EGBACA0AbaG' class=''><a href="https://github.blog/">https://github.blog/</a>
-
-<br/></li><li id='EGBACAWLIZt' class=''><a href="https://devblast.com/">https://devblast.com/</a>
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAQVSuG'><u><i>Books:</i></u></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAUMml2'><li id='EGBACAgakpZ' class='' value='1'><a href="https://dev.to/daolf/the-25-most-recommended-programming-books-of-all-time-5fel">https://dev.to/daolf/the-25-most-recommended-programming-books-of-all-time-5fel</a>
-
-<br/></li><li id='EGBACACL8vx' class=''><a href="https://wizardzines.com/">https://wizardzines.com/</a>
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAedAKN'><u>Communities:</u></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAJcq7M'><li id='EGBACAeFR9x' class='' value='1'><a href="https://dev.to/"><b>https://dev.to/</b></a><b> ⬅️ Popular social network for developers.</b>
-
-<br/></li><li id='EGBACAsX1Cu' class=''><a href="https://discord.gg/3ckDFg">Discord Go-Phers (Go Language)</a>
-
-<br/></li><li id='EGBACAeV96p' class=''><a href="https://gitter.im/home/explore">https://gitter.im/home/explore</a> ⬅️ Communities for open source projects
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAxg5x1'><u><b>Design Resources:</b></u></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAjYjM3'><li id='EGBACAtpSJg' class='' value='1'><a href="https://coolors.co/">https://coolors.co/</a>
-
-<br/></li><li id='EGBACAvUvM3' class=''><a href="https://krasimir.gitbooks.io/react-in-patterns/content/?ref=producthunt">https://krasimir.gitbooks.io/react-in-patterns/content/?ref=producthunt</a> 
-
-<br/></li><li id='fffuel' class=''><a href="https://www.fffuel.co/">Flexible SVG Generation Tools ; Patterns and More</a>
-    
-    
-<br/></li><li id='EGBACAxQygL' class=''><a href="https://www.fgdesigners.com/">Free Fonts and Vectors</a> ⬅️ Design/Styling
-
-<br/></li><li id='EGBACAv9zpe' class=''><b><a href="https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors">Online Class on Using SCSS</a></b>
-
-<br/></li><li id='EGBACAzQYxg' class=''><a href="https://freefrontend.com/css-text-animations/">https://freefrontend.com/css-text-animations/</a>
-
-<br/></li><li id='EGBACAB1PJO' class=''><a href="https://www.typeroom.eu/">https://www.typeroom.eu/</a> ⬅️ Typography blog
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAHzAYu'><b><u><i>Games + Challenges:</i></u></b></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACA3OO3r'><li id='EGBACAs8Qyg' class='' value='1'><a href="https://www.bloc.io/ruby-warrior#/">Ruby Warrior Game</a>
-
-<br/></li><li id='EGBACA3F75m' class=''><u><a href="https://cryptozombies.io/">https://cryptozombies.io/</a></u>
-
-<br/></li><li id='EGBACAhPxtH' class=''><a href="https://www.flashcardsfordevelopers.com/">https://www.flashcardsfordevelopers.com/</a> ⬅️ <b><i>Flash Cards</i></b>
-
-<br/></li></ul></div><h1 id='EGBACABObNS'><b><a href="https://www.hackerearth.com/">https://www.hackerearth.com/</a></b></h1>
-
-<h1 id='EGBACAI5E5b'><a href="https://edabit.com/challenges">https://edabit.com/challenges</a></h1>
-
-<hr style='width:100%'><h2 id='EGBACAHAhs2'><u>General Help:<br></u></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAQgn9y'><li id='EGBACA6xHwg' class='' value='1'><a href="https://www.stackoverflow.com">https://www.stackoverflow.com</a>
-
-<br/></li><li id='EGBACAzkY5p' class=''><a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>
-
-<br/></li><li id='EGBACAkfpT7' class=''><a href="https://stanza.dev/">https://stanza.dev/</a>
-
-<br/></li><li id='EGBACAg1ZW5' class=''><a href="https://howtoxwithy.com/?ref=producthunt">https://howtoxwithy.com/?ref=producthunt</a>
-
-<br/></li><li id='EGBACAJaDjE' class=''><a href="https://devhints.io/">https://devhints.io/</a> ⬅️ ExcellentCheat Sheets
-
-<br/></li><li id='EGBACAqJKRS' class=''><a href="https://12factor.net/">https://12factor.net/</a> - <b>Software Architecture</b>
-
-<br/></li><li id='EGBACAca8SL' class=''><b><a href="https://dev.to/sahilrajput/useful-websites-for-programmers-36k">https://dev.to/sahilrajput/useful-websites-for-programmers-36k</a></b>
-
-<br/></li><li id='EGBACA5XClf' class=''><b><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></b>
-
-<br/></li><li id='EGBACA3dRDg' class=''><a href="https://tldr.ostera.io/">https://tldr.ostera.io/</a> ⬅️ What does this shell command do?
-
-<br/></li><li id='EGBACAtSi1u' class=''><a href="https://medium.com/better-programming/amazing-developer-tools-that-you-might-not-be-using-1ec7f57d17d5">https://medium.com/better-programming/amazing-developer-tools-that-you-might-not-be-using-1ec7f57d17d5</a> ⬅️ Useful CSS, AWS, and node tools.
-
-<br/></li><li id='EGBACApybNw' class=''><a href="http://web.cecs.pdx.edu/~sheard/course/CS457-557/Haskell/RecursiveDesignRecipe.html">http://web.cecs.pdx.edu/~sheard/course/CS457-557/Haskell/RecursiveDesignRecipe.html</a> ⬅️ recursion in practice 
-
-<br/></li><li id='EGBACAod0Ey' class=''><b><a href="https://joshwcomeau.com/operator-lookup/?ref=producthunt">https://joshwcomeau.com/operator-lookup/?ref=producthunt</a> ⬅️ Javascript Operators</b>
-
-<br/></li><li id='EGBACAuFmmp' class=''><a href="https://www.stackbit.com/blog/getting-started-nextjs-sourcebit/">https://www.stackbit.com/blog/getting-started-nextjs-sourcebit/</a> ⬅️ Building a Site with Next.JS
-
-<br/></li><li id='EGBACAqG2cT' class=''><a href="https://github.com/enaqx/awesome-react">https://github.com/enaqx/awesome-react</a> ⬅️ Awesome React List
-
-<br/></li><li id='EGBACA8GkZC' class=''><a href="https://dev.to/iuliagroza/complete-introduction-to-the-30-most-essential-data-structures-algorithms-43kd">https://dev.to/iuliagroza/complete-introduction-to-the-30-most-essential-data-structures-algorithms-43kd</a> ⬅️ Data Structures + Algorithms
-
-<br/></li><li id='EGBACAKFAsv' class=''><a href="https://github.com/MaggieAppleton/react-metaphors-slides">https://github.com/MaggieAppleton/react-metaphors-slides</a> ⬅️ <b>REACT Metaphors</b>
-
-<br/></li><li id='EGBACAzkY5j8' class=''><a href="https://www.qualtrics.com/blog/glossary-of-coding-and-programming-terms/">Glossary of Foundational Coding Terms By Qualtrics</a>
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAYLNTE'><u>Jobs:</u></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAS8Nde'><li id='EGBACAzwXVy' class='' value='1'><a href="https://remoteleaf.com/whoishiring">https://remoteleaf.com/whoishiring</a>
-
-<br/></li><li id='EGBACAkXdEQ' class=''><a href="https://twitter.com/sunilc_/status/1306654675739967489?s=21">https://twitter.com/sunilc_/status/1306654675739967489?s=21</a> ⬅️ Good courses for finding a new job.
-
-<br/></li><li id='EGBACAfhEY2' class='parent'><a href="https://medium.com/better-programming/how-to-land-an-engineering-job-after-bootcamp-a27294369643">https://medium.com/better-programming/how-to-land-an-engineering-job-after-bootcamp-a27294369643</a>
-
-<br/></li><ul><li id='EGBACAQg4VM' class=''>Standing out from the rest of the pack.
-
-<br/></li></ul><li id='EGBACAdh1ER' class=''><a href="https://hunter.io/">https://hunter.io/</a> ⬅️ Find emails of people you’re trying to contact.
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAmB0te'><u><b>Ruby:</b></u></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAbouOa'><li id='EGBACAgOV8J' class='' value='1'><b><a href="https://guides.rubyonrails.org/index.html">https://guides.rubyonrails.org/index.html</a></b>
-
-<br/></li><li id='EGBACAN52vx' class=''><a href="https://graphql-ruby.org/">https://graphql-ruby.org/</a> ⬅️ <b>RUBY GraphQL API GEM</b>
-
-<br/></li><li id='EGBACAVTTVC' class=''><a href="https://rubygems.org/">https://rubygems.org/</a>
-
-<br/></li><li id='EGBACAXMmvK' class=''><a href="https://ruby-doc.org/">https://ruby-doc.org/</a>
-
-<br/></li><li id='EGBACAttPUK' class=''><a href="https://github.com/rubocop-hq/ruby-style-guide">https://github.com/rubocop-hq/ruby-style-guide</a> ⬅️ Resource for ruby conventions and styling.
-
-<br/></li><li id='EGBACAfQBoX' class=''><a href="http://guides.rubyonrails.org/form_helpers.html">http://guides.rubyonrails.org/form_helpers.html</a> ⬅️ Form Helper
-
-<br/></li><li id='EGBACAofFZa' class=''><a href="https://coderwall.com/t/ruby/popular">https://coderwall.com/t/ruby/popular</a>
-
-<br/></li><li id='EGBACACPs3r' class=''><a href="https://web-crunch.com/posts/understanding-ruby-on-rails-activerecord-validations">https://web-crunch.com/posts/understanding-ruby-on-rails-activerecord-validations</a>
-
-<br/></li><li id='EGBACAkERoj' class=''><a href="https://devcenter.heroku.com/articles/getting-started-with-rails6">https://devcenter.heroku.com/articles/getting-started-with-rails6</a> ⬅️ <b>Deploying a Rails App to Heroku</b>
-
-<br/></li><li id='EGBACAMsU3I' class=''><b><a href="https://www.betterspecs.org/">https://www.betterspecs.org/</a> ⬅️ Guide on Testing</b>
-
-<br/></li><li id='EGBACA93Sge' class=''><a href="https://stackify.com/ruby-on-rails-blogs-youtube-channels/">https://stackify.com/ruby-on-rails-blogs-youtube-channels/</a> ⬅️ Good blogs
-
-<br/></li><li id='EGBACAYCA39' class=''><a href="https://guides.rubygems.org/make-your-own-gem/">https://guides.rubygems.org/make-your-own-gem/</a> ⬅️ <b>Publishing a Gem</b> 
-
-<br/></li></ul></div><hr style='width:100%'>
-<h2 id='EGBACAVbrLW'><u>Testing:</u></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAd0gGC'><li id='EGBACAYyPVn' class='' value='1'><a href="https://jestjs.io/en/">https://jestjs.io/en/</a>
-
-<br/></li><li id='EGBACAKfhUi' class=''><a href="https://sorbet.org/">https://sorbet.org/</a> ⬅️ Type checker for Ruby
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAuGvce'><u>Tips:</u></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACA2Sg8X'><li id='EGBACA2BrMB' class='' value='1'><b><a href="https://www.jstips.co/">https://www.jstips.co/</a></b>
-
-<br/></li><li id='EGBACA4CE9z' class=''>Tip: Add keywords in white font in white-space to beat applicant tracking systems. 
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAuHlDR'><b><u>Tools:</u></b></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACAi1W7B'><li id='EGBACA7hfXQ' class='' value='1'><a href="https://github.com/sindresorhus/awesome">https://github.com/sindresorhus/awesome</a> ⬅️ Platforms/ libraries, cool tools.
-
-<br/></li><li id='EGBACA9Cf5P' class=''><a href="https://searchcode.com/">https://searchcode.com/</a>
-
-<br/></li><li id='EGBACA9Cf5P2' class=''><a href=" https://deepsource.io/dashboard/">DeepSource Automated Code Review</a>   
-
-<br/></li><li id='EGBACAzYATG' class=''><a href="https://carbon.now.sh/">https://carbon.now.sh/</a>
-
-<br/></li><li id='EGBACA23oag' class=''><a href="https://dbdiagram.io/home">https://dbdiagram.io/home</a>
-
-<br/></li><li id='EGBACAbvBik' class=''><a href="https://www.glitterly.app">Glitterly</a>
-
-<br/></li><li id='EGBACAvdOK2' class=''><a href="https://expo.io/">https://expo.io/</a>
-
-<br/></li><li id='EGBACAOsYUH' class=''><a href="https://www.chartjs.org/">https://www.chartjs.org/</a>
-
-<br/></li><li id='EGBACAu2WAh' class=''><a href="https://github.com/omniauth/omniauth">https://github.com/omniauth/omniauth</a>
-
-<br/></li><li id='EGBACA8OT7c' class=''><a href="https://www.thegoodlineheight.com/">https://www.thegoodlineheight.com/</a>
-
-<br/></li><li id='EGBACAj3nHX' class=''><a href="https://rubular.com/">https://rubular.com/</a> ⬅️ Online regular expression editor for Ruby
-
-<br/></li><li id='EGBACAy82l0' class=''><b><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf</a></b>
-
-<br/></li><li id='EGBACAf7PjN' class=''><control data-remapped="true" id="EGBACAsGhho"><a href="https://quip.com/LuLpAwdn05wW">The Top 44 Yeoman Generators Open Source Projects</a></control>
-
-<br/></li><li id='EGBACAKv0Nr' class=''><a href="https://rb.gy/qpiexr">https://rb.gy/qpiexr</a> ⬅️ Resources to find OSS projects to contribute to 
-
-<br/></li></ul></div><hr style='width:100%'><h2 id='EGBACAmVuYv'><b><u>Tutorials:</u></b></h2>
-
-<div data-section-style='5' class="" style=""><ul id='EGBACA9HhQv'><li id='EGBACAFrQlU' class='' value='1'><a href="https://scotch.io/"><b>https://scotch.io/</b></a><b> ⬅️ Good tutorials!</b>
-
-<br/></li><li id='EGBACARkeow' class=''><a href="https://teachyourselfcs.com/#algorithms">https://teachyourselfcs.com/#algorithms</a> ⬅️ <b>Excellent course on data structures and algorithms</b>
-
-<br/></li><li id='EGBACAWOFWS' class=''><a href="https://www.digitalocean.com/community/tutorial_series/how-to-code-in-ruby">https://www.digitalocean.com/community/tutorial_series/how-to-code-in-ruby</a>
-
-<br/></li><li id='EGBACAADfQ2' class=''><a href="http://web.engr.oregonstate.edu/~rosulekm/crypto/">Cryptography Textbook from Oregon State</a> 
-
-<br/></li><li id='EGBACAgTPHb' class=''><a href="https://scotch.io/tutorials/integrating-social-login-in-a-ruby-on-rails-application">https://scotch.io/tutorials/integrating-social-login-in-a-ruby-on-rails-application</a>
-
-<br/></li><li id='EGBACAA4UwC' class=''><a href="https://ohshitgit.com/">https://ohshitgit.com/</a>
-
-<br/></li><li id='EGBACAaj1qg' class=''><a href="https://www.javascripttutorial.net/">https://www.javascripttutorial.net/</a>
-
-<br/></li><li id='EGBACAkYciD' class=''><a href="https://www.digitalocean.com/community/tutorials">https://www.digitalocean.com/community/tutorials</a>
-
-<br/></li><li id='EGBACAkm85O' class=''><b><a href="https://www.tutorialspoint.com/index.htm">https://www.tutorialspoint.com/index.htm</a></b>
-
-<br/></li><li id='EGBACAh9Fyt' class=''><a href="http://think-like-a-git.net/">http://think-like-a-git.net/</a>
-
-<br/></li><li id='EGBACAI06fH' class=''><a href="http://jsforcats.com/">http://jsforcats.com</a>
-
-<br/></li><li id='EGBACABx7TT' class=''><a href="https://laracasts.com">https://laracasts.com</a>
-
-<br/></li><li id='EGBACAgo8g8' class=''><a href="https://joshwcomeau.com/tutorials/">https://joshwcomeau.com/tutorials/</a> ⬅️ <b>React Tutorials</b>
-
-<br/></li></ul></div></body></html>
+        body {
+            counter-reset: indent0 indent1 indent2 indent3 indent4 indent5 indent6 indent7 indent8;
+        }
+
+        /* Numbered list */
+        div[data-section-style="6"] {
+            counter-reset: indent0 indent1 indent2 indent3 indent4 indent5 indent6 indent7 indent8;
+        }
+
+        div[data-section-style="6"].list-numbering-continue {
+            counter-reset: none;
+        }
+
+        div[data-section-style="6"].list-numbering-restart-at {
+            counter-reset: indent0 var(--indent0) indent1 indent2 indent3 indent4 indent5 indent6 indent7 indent8;
+        }
+
+        div[data-section-style="6"] ul {
+            /* indent0 is not reset since it is shared across the div elements */
+            list-style-type: none !important;
+        }
+
+        div[data-section-style="6"] ul ul {
+            counter-reset: indent1;
+        }
+
+        div[data-section-style="6"] ul ul ul {
+            counter-reset: indent2;
+        }
+
+        div[data-section-style="6"] ul ul ul ul {
+            counter-reset: indent3;
+        }
+
+        div[data-section-style="6"] ul ul ul ul ul {
+            counter-reset: indent4;
+        }
+
+        div[data-section-style="6"] ul ul ul ul ul ul {
+            counter-reset: indent5;
+        }
+
+        div[data-section-style="6"] ul li {
+            counter-increment: indent0;
+        }
+
+        div[data-section-style="6"] ul ul li {
+            counter-increment: indent1;
+        }
+
+        div[data-section-style="6"] ul ul ul li {
+            counter-increment: indent2;
+        }
+
+        div[data-section-style="6"] ul ul ul ul li {
+            counter-increment: indent3;
+        }
+
+        div[data-section-style="6"] ul ul ul ul ul li {
+            counter-increment: indent4;
+        }
+
+        div[data-section-style="6"] ul ul ul ul ul ul li {
+            counter-increment: indent5;
+        }
+
+        div[data-section-style="6"] ul li:before {
+            content: counter(indent0, decimal) ". ";
+        }
+
+        div[data-section-style="6"] ul ul li:before {
+            content: counter(indent1, lower-alpha) ". ";
+        }
+
+        div[data-section-style="6"] ul ul ul li:before {
+            content: counter(indent2, lower-roman) ". ";
+        }
+
+        div[data-section-style="6"] ul ul ul ul li:before {
+            content: counter(indent3, decimal) ". ";
+        }
+
+        div[data-section-style="6"] ul ul ul ul ul li:before {
+            content: counter(indent4, lower-alpha) ". ";
+        }
+
+        div[data-section-style="6"] ul ul ul ul ul ul li:before {
+            content: counter(indent5, lower-roman) ". ";
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id='EGBACA3nvc3'><br><u>Coding Links 💻</u></h1>
+
+    Jump To ➡️ <a href="#EGBACAHAhs2">General Help</a> - <a href="#EGBACAedAKN">Communities</a> - <a
+        href="#EGBACAmB0te">Ruby</a> - <control data-remapped="true" id="EGBACA3UGQ9"><a href="EGBACARkaQb">Blogs:</a>
+    </control> -  <control data-remapped="true" id="EGBACAnFUkw"><a href="#EGBACAEQnOw">APIs:</a></control> -  <control
+        data-remapped="true" id="EGBACAjB7Jh"><a href="#EGBACAxg5x1">Design Resources:</a></control> -  <control
+        data-remapped="true" id="EGBACAQYmLk"><a href="#EGBACAHzAYu">Games + Challenges:</a></control> <br>- <control
+        data-remapped="true" id="EGBACAG3aAP"><a href="#EGBACAYLNTE">Jobs:</a></control> -  <control
+        data-remapped="true" id="EGBACAkD7Xg"><a href="#EGBACAVbrLW">Testing:</a></control> -  <control
+        data-remapped="true" id="EGBACAMMUe6"><a href="#EGBACAuGvce">Tips:</a></control> -  <control
+        data-remapped="true" id="EGBACA3hfaZ"><a href="#EGBACAmVuYv">Tutorials:</a></control> - <control
+        data-remapped="true" id="EGBACA5asTS"><a href="#EGBACAQVSuG">Books:</a></control> - <control
+        data-remapped="true" id="EGBACA5asTS6"><a href="#YAML">JSON & YAML:</a></control><br />
+
+    <h2 id='EGBACAEQnOw'><b><u>APIs:</u></b></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAF5HR9'>
+            <li id='EGBACALpMUS' class='' value='1'><b><a
+                        href="https://graphqlsheet.com/">https://graphqlsheet.com/</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACAeAzww' class=''><a
+                    href="https://developers.google.com/sheets/api">https://developers.google.com/sheets/api</a>
+
+                <br />
+            </li>
+            <li id='EGBACAvfF2Q' class=''><a href="https://restfulapi.net/">https://restfulapi.net/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAST8kd' class=''><a
+                    href="https://listt.xyz/?ref=producthunt">https://listt.xyz/?ref=producthunt</a>
+
+                <br />
+            </li>
+            <li id='EGBACAd0kiR' class=''><a href="https://openapi.tools/">https://openapi.tools/</a> ⬅️ API Design
+                Tools
+
+                <br />
+            </li>
+            <li id='EGBACAlFUFx' class=''><a
+                    href="https://cloud.google.com/endpoints/docs/openapi/when-why-api-key">https://cloud.google.com/endpoints/docs/openapi/when-why-api-key</a>
+
+                <br />
+            </li>
+            <li id='EGBACAv9Bne' class=''><a href="https://swagger.io/docs/">https://swagger.io/docs/</a>
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACARkaQb'><b><u><i>Blogs:</i></u></b></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACARy8OW'>
+            <li id='EGBACArLpvu' class='' value='1'><b><a href="https://lea.verou.me/">https://lea.verou.me/</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACA0AbaG' class=''><a href="https://github.blog/">https://github.blog/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAWLIZt' class=''><a href="https://devblast.com/">https://devblast.com/</a>
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAQVSuG'><u><i>Books:</i></u></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAUMml2'>
+            <li id='EGBACAgakpZ' class='' value='1'><a
+                    href="https://dev.to/daolf/the-25-most-recommended-programming-books-of-all-time-5fel">https://dev.to/daolf/the-25-most-recommended-programming-books-of-all-time-5fel</a>
+
+                <br />
+            </li>
+            <li id='EGBACACL8vx' class=''><a href="https://wizardzines.com/">https://wizardzines.com/</a>
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAedAKN'><u>Communities:</u></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAJcq7M'>
+            <li id='EGBACAeFR9x' class='' value='1'><a href="https://dev.to/"><b>https://dev.to/</b></a><b> ⬅️ Popular
+                    social network for developers.</b>
+
+                <br />
+            </li>
+            <li id='EGBACAsX1Cu' class=''><a href="https://discord.gg/3ckDFg">Discord Go-Phers (Go Language)</a>
+
+                <br />
+            </li>
+            <li id='EGBACAeV96p' class=''><a href="https://gitter.im/home/explore">https://gitter.im/home/explore</a> ⬅️
+                Communities for open source projects
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAxg5x1'><u><b>Design Resources:</b></u></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAjYjM3'>
+            <li id='EGBACAtpSJg' class='' value='1'><a href="https://coolors.co/">https://coolors.co/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAvUvM3' class=''><a
+                    href="https://krasimir.gitbooks.io/react-in-patterns/content/?ref=producthunt">https://krasimir.gitbooks.io/react-in-patterns/content/?ref=producthunt</a> 
+
+                <br />
+            </li>
+            <li id='fffuel' class=''><a href="https://www.fffuel.co/">Flexible SVG Generation Tools ; Patterns and
+                    More</a>
+
+
+                <br />
+            </li>
+            <li id='EGBACAxQygL' class=''><a href="https://www.fgdesigners.com/">Free Fonts and Vectors</a> ⬅️
+                Design/Styling
+
+                <br />
+            </li>
+            <li id='EGBACAv9zpe' class=''><b><a
+                        href="https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors">Online
+                        Class on Using SCSS</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACAzQYxg' class=''><a
+                    href="https://freefrontend.com/css-text-animations/">https://freefrontend.com/css-text-animations/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAB1PJO' class=''><a href="https://www.typeroom.eu/">https://www.typeroom.eu/</a> ⬅️ Typography
+                blog
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAHzAYu'><b><u><i>Games + Challenges:</i></u></b></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACA3OO3r'>
+            <li id='EGBACAs8Qyg' class='' value='1'><a href="https://www.bloc.io/ruby-warrior#/">Ruby Warrior Game</a>
+
+                <br />
+            </li>
+            <li id='EGBACA3F75m' class=''><u><a href="https://cryptozombies.io/">https://cryptozombies.io/</a></u>
+
+                <br />
+            </li>
+            <li id='EGBACAhPxtH' class=''><a
+                    href="https://www.flashcardsfordevelopers.com/">https://www.flashcardsfordevelopers.com/</a> ⬅️
+                <b><i>Flash Cards</i></b>
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <h1 id='EGBACABObNS'><b><a href="https://www.hackerearth.com/">https://www.hackerearth.com/</a></b></h1>
+
+    <h1 id='EGBACAI5E5b'><a href="https://edabit.com/challenges">https://edabit.com/challenges</a></h1>
+
+    <hr style='width:100%'>
+    <h2 id='EGBACAHAhs2'><u>General Help:<br></u></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAQgn9y'>
+            <li id='EGBACA6xHwg' class='' value='1'><a
+                    href="https://www.stackoverflow.com">https://www.stackoverflow.com</a>
+
+                <br />
+            </li>
+            <li id='EGBACAzkY5p' class=''><a
+                    href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAkfpT7' class=''><a href="https://stanza.dev/">https://stanza.dev/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAg1ZW5' class=''><a
+                    href="https://howtoxwithy.com/?ref=producthunt">https://howtoxwithy.com/?ref=producthunt</a>
+
+                <br />
+            </li>
+            <li id='EGBACAJaDjE' class=''><a href="https://devhints.io/">https://devhints.io/</a> ⬅️ ExcellentCheat
+                Sheets
+
+                <br />
+            </li>
+            <li id='EGBACAqJKRS' class=''><a href="https://12factor.net/">https://12factor.net/</a> - <b>Software
+                    Architecture</b>
+
+                <br />
+            </li>
+            <li id='EGBACAca8SL' class=''><b><a
+                        href="https://dev.to/sahilrajput/useful-websites-for-programmers-36k">https://dev.to/sahilrajput/useful-websites-for-programmers-36k</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACA5XClf' class=''><b><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACA3dRDg' class=''><a href="https://tldr.ostera.io/">https://tldr.ostera.io/</a> ⬅️ What does
+                this shell command do?
+
+                <br />
+            </li>
+            <li id='EGBACAtSi1u' class=''><a
+                    href="https://medium.com/better-programming/amazing-developer-tools-that-you-might-not-be-using-1ec7f57d17d5">https://medium.com/better-programming/amazing-developer-tools-that-you-might-not-be-using-1ec7f57d17d5</a> ⬅️
+                Useful CSS, AWS, and node tools.
+
+                <br />
+            </li>
+            <li id='EGBACApybNw' class=''><a
+                    href="http://web.cecs.pdx.edu/~sheard/course/CS457-557/Haskell/RecursiveDesignRecipe.html">http://web.cecs.pdx.edu/~sheard/course/CS457-557/Haskell/RecursiveDesignRecipe.html</a> ⬅️
+                recursion in practice 
+
+                <br />
+            </li>
+            <li id='EGBACAod0Ey' class=''><b><a
+                        href="https://joshwcomeau.com/operator-lookup/?ref=producthunt">https://joshwcomeau.com/operator-lookup/?ref=producthunt</a> ⬅️ Javascript
+                    Operators</b>
+
+                <br />
+            </li>
+            <li id='EGBACAuFmmp' class=''><a
+                    href="https://www.stackbit.com/blog/getting-started-nextjs-sourcebit/">https://www.stackbit.com/blog/getting-started-nextjs-sourcebit/</a> ⬅️
+                Building a Site with Next.JS
+
+                <br />
+            </li>
+            <li id='EGBACAqG2cT' class=''><a
+                    href="https://github.com/enaqx/awesome-react">https://github.com/enaqx/awesome-react</a> ⬅️ Awesome
+                React List
+
+                <br />
+            </li>
+            <li id='EGBACA8GkZC' class=''><a
+                    href="https://dev.to/iuliagroza/complete-introduction-to-the-30-most-essential-data-structures-algorithms-43kd">https://dev.to/iuliagroza/complete-introduction-to-the-30-most-essential-data-structures-algorithms-43kd</a> ⬅️
+                Data Structures + Algorithms
+
+                <br />
+            </li>
+            <li id='EGBACAKFAsv' class=''><a
+                    href="https://github.com/MaggieAppleton/react-metaphors-slides">https://github.com/MaggieAppleton/react-metaphors-slides</a> ⬅️
+                <b>REACT Metaphors</b>
+
+                <br />
+            </li>
+            <li id='EGBACAzkY5j8' class=''><a
+                    href="https://www.qualtrics.com/blog/glossary-of-coding-and-programming-terms/">Glossary of
+                    Foundational Coding Terms By Qualtrics</a>
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAYLNTE'><u>Jobs:</u></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAS8Nde'>
+            <li id='EGBACAzwXVy' class='' value='1'><a
+                    href="https://remoteleaf.com/whoishiring">https://remoteleaf.com/whoishiring</a>
+
+                <br />
+            </li>
+            <li id='EGBACAkXdEQ' class=''><a
+                    href="https://twitter.com/sunilc_/status/1306654675739967489?s=21">https://twitter.com/sunilc_/status/1306654675739967489?s=21</a> ⬅️
+                Good courses for finding a new job.
+
+                <br />
+            </li>
+            <li id='EGBACAfhEY2' class='parent'><a
+                    href="https://medium.com/better-programming/how-to-land-an-engineering-job-after-bootcamp-a27294369643">https://medium.com/better-programming/how-to-land-an-engineering-job-after-bootcamp-a27294369643</a>
+
+                <br />
+            </li>
+            <ul>
+                <li id='EGBACAQg4VM' class=''>Standing out from the rest of the pack.
+
+                    <br />
+                </li>
+            </ul>
+            <li id='EGBACAdh1ER' class=''><a href="https://hunter.io/">https://hunter.io/</a> ⬅️ Find emails of people
+                you’re trying to contact.
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAmB0te'><u><b>Ruby:</b></u></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAbouOa'>
+            <li id='EGBACAgOV8J' class='' value='1'><b><a
+                        href="https://guides.rubyonrails.org/index.html">https://guides.rubyonrails.org/index.html</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACAN52vx' class=''><a href="https://graphql-ruby.org/">https://graphql-ruby.org/</a> ⬅️ <b>RUBY
+                    GraphQL API GEM</b>
+
+                <br />
+            </li>
+            <li id='EGBACAVTTVC' class=''><a href="https://rubygems.org/">https://rubygems.org/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAXMmvK' class=''><a href="https://ruby-doc.org/">https://ruby-doc.org/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAttPUK' class=''><a
+                    href="https://github.com/rubocop-hq/ruby-style-guide">https://github.com/rubocop-hq/ruby-style-guide</a> ⬅️
+                Resource for ruby conventions and styling.
+
+                <br />
+            </li>
+            <li id='EGBACAfQBoX' class=''><a
+                    href="http://guides.rubyonrails.org/form_helpers.html">http://guides.rubyonrails.org/form_helpers.html</a> ⬅️
+                Form Helper
+
+                <br />
+            </li>
+            <li id='EGBACAofFZa' class=''><a
+                    href="https://coderwall.com/t/ruby/popular">https://coderwall.com/t/ruby/popular</a>
+
+                <br />
+            </li>
+            <li id='EGBACACPs3r' class=''><a
+                    href="https://web-crunch.com/posts/understanding-ruby-on-rails-activerecord-validations">https://web-crunch.com/posts/understanding-ruby-on-rails-activerecord-validations</a>
+
+                <br />
+            </li>
+            <li id='EGBACAkERoj' class=''><a
+                    href="https://devcenter.heroku.com/articles/getting-started-with-rails6">https://devcenter.heroku.com/articles/getting-started-with-rails6</a> ⬅️
+                <b>Deploying a Rails App to Heroku</b>
+
+                <br />
+            </li>
+            <li id='EGBACAMsU3I' class=''><b><a href="https://www.betterspecs.org/">https://www.betterspecs.org/</a> ⬅️
+                    Guide on Testing</b>
+
+                <br />
+            </li>
+            <li id='EGBACA93Sge' class=''><a
+                    href="https://stackify.com/ruby-on-rails-blogs-youtube-channels/">https://stackify.com/ruby-on-rails-blogs-youtube-channels/</a> ⬅️
+                Good blogs
+
+                <br />
+            </li>
+            <li id='EGBACAYCA39' class=''><a
+                    href="https://guides.rubygems.org/make-your-own-gem/">https://guides.rubygems.org/make-your-own-gem/</a> ⬅️
+                <b>Publishing a Gem</b> 
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAVbrLW'><u>Testing:</u></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAd0gGC'>
+            <li id='EGBACAYyPVn' class='' value='1'><a href="https://jestjs.io/en/">https://jestjs.io/en/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAKfhUi' class=''><a href="https://sorbet.org/">https://sorbet.org/</a> ⬅️ Type checker for Ruby
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAuGvce'><u>Tips:</u></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACA2Sg8X'>
+            <li id='EGBACA2BrMB' class='' value='1'><b><a href="https://www.jstips.co/">https://www.jstips.co/</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACA4CE9z' class=''>Tip: Add keywords in white font in white-space to beat applicant tracking
+                systems. 
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAuHlDR'><b><u>Tools:</u></b></h2>
+
+    <div data-section-style='5'>
+        <ul id='EGBACAi1W7B'>
+            <li id='EGBACA7hfXQ' class='' value='1'><a
+                    href="https://github.com/sindresorhus/awesome">https://github.com/sindresorhus/awesome</a> ⬅️
+                Platforms/ libraries, cool tools.
+
+                <br />
+            </li>
+            <li id='EGBACA9Cf5P' class=''><a href="https://searchcode.com/">https://searchcode.com/</a>
+
+                <br />
+            </li>
+            <li id='EGBACA9Cf5P2' class=''><a href=" https://deepsource.io/dashboard/">DeepSource Automated Code
+                    Review</a>
+
+                <br />
+            </li>
+            <li id='EGBACAzYATG' class=''><a href="https://carbon.now.sh/">https://carbon.now.sh/</a>
+
+                <br />
+            </li>
+            <li id='EGBACA23oag' class=''><a href="https://dbdiagram.io/home">https://dbdiagram.io/home</a>
+
+                <br />
+            </li>
+            <li id='EGBACAbvBik' class=''><a href="https://www.glitterly.app">Glitterly</a>
+
+                <br />
+            </li>
+            <li id='EGBACAvdOK2' class=''><a href="https://expo.io/">https://expo.io/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAOsYUH' class=''><a href="https://www.chartjs.org/">https://www.chartjs.org/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAu2WAh' class=''><a
+                    href="https://github.com/omniauth/omniauth">https://github.com/omniauth/omniauth</a>
+
+                <br />
+            </li>
+            <li id='EGBACA8OT7c' class=''><a
+                    href="https://www.thegoodlineheight.com/">https://www.thegoodlineheight.com/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAj3nHX' class=''><a href="https://rubular.com/">https://rubular.com/</a> ⬅️ Online regular
+                expression editor for Ruby
+
+                <br />
+            </li>
+            <li id='EGBACAy82l0' class=''><b><a
+                        href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACAf7PjN' class=''>
+                <control data-remapped="true" id="EGBACAsGhho"><a href="https://quip.com/LuLpAwdn05wW">The Top 44 Yeoman
+                        Generators Open Source Projects</a></control>
+
+                <br />
+            </li>
+            <li id='EGBACAKv0Nr' class=''><a href="https://rb.gy/qpiexr">https://rb.gy/qpiexr</a> ⬅️ Resources to find
+                OSS projects to contribute to 
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAmVuYv'><b><u>Tutorials:</u></b></h2>
+    <div data-section-style='5'>
+        <ul id='EGBACA9HhQv'>
+            <li id='EGBACAFrQlU' class='' value='1'><a href="https://scotch.io/"><b>https://scotch.io/</b></a><b> ⬅️
+                    Good tutorials!</b>
+
+                <br />
+            </li>
+            <li id='EGBACARkeow' class=''><a
+                    href="https://teachyourselfcs.com/#algorithms">https://teachyourselfcs.com/#algorithms</a> ⬅️
+                <b>Excellent course on data structures and algorithms</b>
+
+                <br />
+            </li>
+            <li id='EGBACAWOFWS' class=''><a
+                    href="https://www.digitalocean.com/community/tutorial_series/how-to-code-in-ruby">https://www.digitalocean.com/community/tutorial_series/how-to-code-in-ruby</a>
+
+                <br />
+            </li>
+            <li id='EGBACAADfQ2' class=''><a href="http://web.engr.oregonstate.edu/~rosulekm/crypto/">Cryptography
+                    Textbook from Oregon State</a> 
+
+                <br />
+            </li>
+            <li id='EGBACAgTPHb' class=''><a
+                    href="https://scotch.io/tutorials/integrating-social-login-in-a-ruby-on-rails-application">https://scotch.io/tutorials/integrating-social-login-in-a-ruby-on-rails-application</a>
+
+                <br />
+            </li>
+            <li id='EGBACAA4UwC' class=''><a href="https://ohshitgit.com/">https://ohshitgit.com/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAaj1qg' class=''><a
+                    href="https://www.javascripttutorial.net/">https://www.javascripttutorial.net/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAkYciD' class=''><a
+                    href="https://www.digitalocean.com/community/tutorials">https://www.digitalocean.com/community/tutorials</a>
+
+                <br />
+            </li>
+            <li id='EGBACAkm85O' class=''><b><a
+                        href="https://www.tutorialspoint.com/index.htm">https://www.tutorialspoint.com/index.htm</a></b>
+
+                <br />
+            </li>
+            <li id='EGBACAh9Fyt' class=''><a href="http://think-like-a-git.net/">http://think-like-a-git.net/</a>
+
+                <br />
+            </li>
+            <li id='EGBACAI06fH' class=''><a href="http://jsforcats.com/">http://jsforcats.com</a>
+
+                <br />
+            </li>
+            <li id='EGBACABx7TT' class=''><a href="https://laracasts.com">https://laracasts.com</a>
+
+                <br />
+            </li>
+            <li id='EGBACAgo8g8' class=''><a
+                    href="https://joshwcomeau.com/tutorials/">https://joshwcomeau.com/tutorials/</a> ⬅️ <b>React
+                    Tutorials</b>
+
+                <br />
+            </li>
+        </ul>
+    </div>
+    <hr style='width:100%'>
+    <h2 id='EGBACAmVuYv'><b><u>JSON & YAML Languages:</u></b></h2>
+
+    <div data-section-style='5'>
+        <ul id='YAML'>
+            <li id='EGBACAFrQlU' class='' value='1'><a href="https://www.w3schools.io/file/yaml-introduction/""><b>YAML 101 from w3schools</b></a>
+                    <br />
+                </li>
+            </ul>
+        </div>
+
+</body>
+
+</html>
